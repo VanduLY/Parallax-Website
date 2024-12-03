@@ -1,0 +1,72 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Parallax Sections */
+.parallax {
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#section1 {
+    background-image: url('MVJCEP.png'); /* Replace with your college image */
+}
+
+#section2 {
+    background-image: url('OIP.jpeg'); /* Replace with another image */
+}
+
+#section3 {
+    background-image: url('highlights-admission-003.webp'); /* Replace with another image */
+}
+
+#section4 {
+    background-image: url('OIP(1).jpeg'); /* Replace with another image */
+}
+
+
+#section5 {
+    background-image: url('42.avif'); /* Replace with another image */
+}
+
+/* Content */
+.content {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Info Section */
+.info-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.info-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
